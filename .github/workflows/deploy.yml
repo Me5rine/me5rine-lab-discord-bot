@@ -16,6 +16,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             set -e
+            git config --global --add safe.directory /opt/bots/me5rine-lab
             cd /opt/bots/me5rine-lab
             git pull
             /opt/bots/me5rine-lab/.venv/bin/pip install -r requirements.txt
