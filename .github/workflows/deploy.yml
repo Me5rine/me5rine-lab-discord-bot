@@ -1,3 +1,4 @@
+# Me5rine Lab — déploiement automatique sur push main
 name: Deploy to OVH VPS
 
 on:
